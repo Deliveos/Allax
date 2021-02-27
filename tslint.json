@@ -1,0 +1,8 @@
+{
+  "extends": ["tslint-config-prettier"],
+  "rules": {
+    "curly": false,
+    "ordered-imports": false,
+    "interface-name": [true, "never-prefix"] 
+  }
+}

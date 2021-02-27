@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.scene {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.link-to-github {
+  position: absolute;
+  left: 50%;
+  z-index: 99;
+  transform: translate(-50%, 0);
+  opacity: 0.3;
+  transition: 0.3s;
+}
+.link-to-github:hover {
+  opacity: 1;
+}
+.space {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.space__links {
+  text-align: center;
+}
+.space__links a{
+  color: #fff;
+  margin-top: 0 auto;
+  text-decoration: none;
+}
+.space__download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.space__download a {
+  padding: 20px 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.space__download a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.docs {
+  height: 100vh;
+}
