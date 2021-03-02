@@ -47,7 +47,7 @@ class Star {
       star.style.boxShadow = '0 0 ' + this.range(0, size) + 'px' + color;
 
       star.classList.add('star');
-      star.setAttribute('data-allax-speed', this.range(0, 0.2).toString());
+      star.setAttribute('data-parallax-speed', this.range(0, 0.2).toString());
 
       this.parant?.appendChild(star);
     }
