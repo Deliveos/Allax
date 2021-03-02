@@ -9,7 +9,7 @@ You can download the repository and use the library by connecting `dist/allax.js
 
 You can connect the library using HTML tag `script`:
 ```
-<script src="https://rawcdn.githack.com/Deliveos/Allax/5113a4642325532cb4fd550db58fc856507de287/dist/allax.js"><script>
+<script src="https://rawcdn.githack.com/Deliveos/Allax/5113a4642325532cb4fd550db58fc856507de287/dist/allax.js"></script>
 ```
 
 # How to use Allax?
@@ -19,12 +19,12 @@ In order to use the library, you need to create an instance of the `Parallax` cl
 new Parallax(".layer", {
   speed: nuber,
   speedRange: {
-    min: number;
-    max: number;
+    min: number,
+    max: number,
   };
-  behindMouse: boolean;
-  translateX: boolean;
-  translateY: boolean;
+  behindMouse: boolean,
+  translateX: boolean,
+  translateY: boolean
 })
 ```
 # Options
@@ -42,8 +42,8 @@ The minimum and maximum value takes on a value of the `number` type from `0` to 
 ```
 new Parallax(".layer", {
   speedRange: {
-    min: 0;
-    max: 10;
+    min: 0,
+    max: 10
 })
 ```
 #### Example
@@ -64,12 +64,12 @@ How create pallax effect? Very simple!
 </div>
 
 <script src="https://rawcdn.githack.com/Deliveos/Allax/5113a4642325532cb4fd550db58fc856507de287/dist/allax.js"><script>
-<script>
+<>
   new Parallax(".layer", speedRange: {
-    min: 0;
-    max: 10;
+    min: 0,
+    max: 10
 })
-</script>
+</>
 ```
 Done! In this case, the first element will have a speed 0, and second element will have a speed 5, and last element will have a speed 10.
 
