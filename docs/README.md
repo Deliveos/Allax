@@ -3,6 +3,8 @@
 This is a simple library for creating parallax effect on mouse movement.
 
 # How to get Allax?
+You can download `allax.js` file on the [site](https://deliveos.github.io/Allax/).
+
 You can download the repository and use the library by connecting `dist/allax.js`
 
 You can connect the library using HTML tag `script`:
