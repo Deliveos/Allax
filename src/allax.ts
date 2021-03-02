@@ -77,7 +77,7 @@ class Parallax {
 
   moveLayers(ev: MouseEvent, currentSpeed: number, factor: number, moveX: boolean, moveY: boolean) {
     for (let i = 0; i < this.layers.length; i++) {
-      const dataSpeed: number | null = -Number(this.layers[i].getAttribute('data-allax-speed'));
+      const dataSpeed: number | null = -Number(this.layers[i].getAttribute('data-parallax-speed'));
       this.layers[i].style.transform = `translate(${
         moveX ? (dataSpeed ? this.position(ev).x * dataSpeed : this.position(ev).x * currentSpeed) : 0
       }px, ${moveY ? (dataSpeed ? -this.position(ev).y * dataSpeed : -this.position(ev).y * currentSpeed) : 0}px)`;
